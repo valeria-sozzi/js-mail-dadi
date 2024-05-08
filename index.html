@@ -37,8 +37,16 @@
     <section class="container bg-warning mt-5 p-5">
       <h1 class="text-uppercase text-center fs-1 pt-5">gioco dadi</h1>
       <div class="text-center my-5">
-        <button class="btn btn-success text-white fs-4">Gioca</button>
-        <button class="btn btn-danger text-white fs-4">Stop</button>
+        <button class="btn btn-success text-white fs-4 me-5" id="play">
+          Gioca
+        </button>
+        <button class="btn btn-danger text-white fs-4" id="stop">Stop</button>
+      </div>
+
+      <div class="text-center">
+        <div id="result" class="fs-2"></div>
+        <span id="my_nut" class="fs-4 pe-5"></span>
+        <span id="cpu_nut" class="fs-4"></span>
       </div>
     </section>
     <script src="./assets/js/main.js"></script>
